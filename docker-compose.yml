@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  htmltopdf:
+    image: ${DOCKER_REGISTRY}htmltopdf
+    build:
+      context: .
+      dockerfile: HtmlToPDF/Dockerfile

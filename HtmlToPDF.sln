@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPDF", "HtmlToPDF\HtmlToPDF.csproj", "{C61C6E28-AA9F-4DE9-993A-4E1843F293DF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{45E9478E-DDC4-4A9C-A6A3-614900292FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C61C6E28-AA9F-4DE9-993A-4E1843F293DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61C6E28-AA9F-4DE9-993A-4E1843F293DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61C6E28-AA9F-4DE9-993A-4E1843F293DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61C6E28-AA9F-4DE9-993A-4E1843F293DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E9478E-DDC4-4A9C-A6A3-614900292FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E9478E-DDC4-4A9C-A6A3-614900292FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E9478E-DDC4-4A9C-A6A3-614900292FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E9478E-DDC4-4A9C-A6A3-614900292FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {892D9E18-A5F0-4EE2-B0DE-1E2D97F5CF8D}
+	EndGlobalSection
+EndGlobal
