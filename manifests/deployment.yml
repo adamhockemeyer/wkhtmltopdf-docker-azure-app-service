@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "ahockaks-11a4"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "ahockaks-11a4"
+    spec:
+      containers:
+        - name: "ahockaks-11a4"
+          image: "ahock.azurecr.io/ahockaks"
+          ports:
+          - containerPort: 80
